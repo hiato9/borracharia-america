@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 130" width="600" height="130">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a1a6e"/>
+      <stop offset="100%" style="stop-color:#1e1260"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="130" rx="12" ry="12" fill="url(#bg)"/>
+  <!-- BORRACHARIA text -->
+  <text x="20" y="58" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" letter-spacing="2">BORRACHARIA</text>
+  <!-- AMÉRICA text -->
+  <text x="360" y="58" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="40" fill="#E52020" letter-spacing="1">AMÉRICA</text>
+  <!-- S.O.S line -->
+  <text x="20" y="100" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="20" fill="#FFFFFF">S.O.S</text>
+  <!-- Divider -->
+  <line x1="90" y1="84" x2="90" y2="106" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <!-- Phone number -->
+  <text x="100" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">☎ 3527-2641</text>
+  <!-- Divider -->
+  <line x1="260" y1="84" x2="260" y2="106" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+  <!-- WhatsApp number -->
+  <text x="272" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">✆ 99689-9750</text>
+  <!-- Subtle border -->
+  <rect width="600" height="130" rx="12" ry="12" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.15"/>
+</svg>
