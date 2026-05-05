@@ -195,6 +195,50 @@
         <h2>O QUE NOSSOS CLIENTES DIZEM</h2>
         <p>Avaliações reais de quem confia no nosso trabalho.</p>
       </div>
+      <!-- FORMULÁRIO DE FEEDBACK -->
+      <div class="feedback-box fade-in" id="feedbackBox">
+        <div class="feedback-box__header">
+          <div class="feedback-box__icon">💬</div>
+          <div>
+            <h3 class="feedback-box__title">Deixe sua Avaliação</h3>
+            <p class="feedback-box__subtitle">Sua opinião é muito importante pra nós!</p>
+          </div>
+        </div>
+        <form class="feedback-form" id="feedbackForm">
+          <div class="feedback-form__group">
+            <label for="feedbackName" class="feedback-form__label">Seu nome</label>
+            <input type="text" id="feedbackName" class="feedback-form__input" placeholder="Ex: João Silva" required maxlength="50">
+          </div>
+          <div class="feedback-form__group">
+            <label class="feedback-form__label">Sua avaliação</label>
+            <div class="feedback-stars" id="feedbackStars">
+              <span class="feedback-star" data-value="1">★</span>
+              <span class="feedback-star" data-value="2">★</span>
+              <span class="feedback-star" data-value="3">★</span>
+              <span class="feedback-star" data-value="4">★</span>
+              <span class="feedback-star" data-value="5">★</span>
+            </div>
+            <input type="hidden" id="feedbackRating" value="0">
+          </div>
+          <div class="feedback-form__group">
+            <label for="feedbackMessage" class="feedback-form__label">Sua mensagem</label>
+            <textarea id="feedbackMessage" class="feedback-form__textarea" placeholder="Conte como foi sua experiência..." required maxlength="300" rows="3"></textarea>
+            <span class="feedback-form__counter"><span id="charCount">0</span>/300</span>
+          </div>
+          <button type="submit" class="btn btn-red feedback-form__submit" id="feedbackSubmit">
+            ✉️ Enviar Avaliação
+          </button>
+        </form>
+        <div class="feedback-box__success" id="feedbackSuccess">
+          <div class="feedback-box__success-icon">✅</div>
+          <p>Obrigado pela sua avaliação! Sua opinião é muito valiosa pra nós.</p>
+        </div>
+      </div>
+
+      <!-- FEEDBACKS DOS CLIENTES (via site) -->
+      <div class="feedback-client-list" id="feedbackClientList"></div>
+
+      <!-- DEPOIMENTOS DE EXEMPLO -->
       <div class="testimonials-grid">
         <div class="testimonial-card fade-in">
           <div class="testimonial-stars">★★★★★</div>
